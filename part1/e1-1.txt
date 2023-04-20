@@ -1,0 +1,5 @@
+❯ docker ps -a
+CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS                     PORTS      NAMES
+10ec3b2e4c76   postgres   "docker-entrypoint.s…"   18 seconds ago   Up 16 seconds              5432/tcp   affectionate_blackwell
+7f90e8760534   redis      "docker-entrypoint.s…"   3 minutes ago    Exited (0) 2 seconds ago              fervent_jones
+84940213218c   nginx      "/docker-entrypoint.…"   3 minutes ago    Exited (0) 2 seconds ago              stoic_ganguly
