@@ -1,0 +1,9 @@
+In brief:
+- Made small Kotlin web app displaying random dog facts
+- Multi-stage Docker build as only jar is needed to run
+- Deployed to Azure App service from image deployed to Docker Hub
+- Cloud infra (IaC) managed by Terraform
+- Automated CI/CD with GH Actions
+
+Code: https://github.com/FinThunderstorm/dogfacts
+App: https://dogfacts.azurewebsites.net/
