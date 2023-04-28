@@ -1,0 +1,3 @@
+- Removed ENV parts from Dockerfiles as compose does not override them -> rebuilt container images
+- Remove port numbering from front and back envs
+- Removed port bindings from front & back
