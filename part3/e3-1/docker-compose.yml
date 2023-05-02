@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  express:
+    image: tualanen/express-app
+    ports:
+      - 127.0.0.1:8080:8080
+    labels:
+      - "com.centurylinklabs.watchtower.scope=express"
+    container_name: express
+
+  watchtower:
+    image: containrrr/watchtower
+    environment:
+      - WATCHTOWER_POLL_INTERVAL=30
+      - WATCHTOWER_SCOPE=express
+    labels:
+      - "com.centurylinklabs.watchtower.scope=express"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    container_name: watchtower
