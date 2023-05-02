@@ -1,0 +1,6 @@
+Added docker-compose.yml for having database (mongo) and db viewer (mongo-express).
+Implemented voting system to have use for DB.
+Added CosmosDB to cloud infra using Terraform. Combination CosmosDB and Mongo were selected, because of CosmosDB Free Tier.
+
+Code: https://github.com/FinThunderstorm/dogfacts
+App: https://dogfacts.azurewebsites.net/
