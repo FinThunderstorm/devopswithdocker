@@ -1,0 +1,4 @@
+Configs are found from this repo:
+App itself: https://github.com/FinThunderstorm/devopswithdocker/tree/master/part3/e3-1/express-app
+GHA Workflow: https://github.com/FinThunderstorm/devopswithdocker/blob/master/.github/workflows/e3-1.yml
+docker-compose.yml: https://github.com/FinThunderstorm/devopswithdocker/blob/master/part3/e3-1/docker-compose.yml
