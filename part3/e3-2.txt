@@ -1,0 +1,5 @@
+GHA Workflow: https://github.com/FinThunderstorm/dogfacts/blob/master/.github/workflows/ci.yml
+Code: https://github.com/FinThunderstorm/dogfacts
+App: https://dogfacts.azurewebsites.net/
+
+GHA Workflow was done in Exercise 1.16 as stated in https://github.com/FinThunderstorm/devopswithdocker/commit/e9964406bda8497e252bd3798cb77aeb06a1d41b
